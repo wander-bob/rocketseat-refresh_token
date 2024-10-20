@@ -1,0 +1,11 @@
+{
+  "name": "refresh_token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.ts",
+  "scripts": {
+    "dev": "tsc watch ./src/server.ts"
+  },
+  "author": "wander-bob",
+  "license": "MIT"
+}
