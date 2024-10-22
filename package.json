@@ -4,8 +4,24 @@
   "description": "",
   "main": "./src/server.ts",
   "scripts": {
-    "dev": "tsc watch ./src/server.ts"
+    "dev": "tsx watch ./src/server.ts"
   },
   "author": "wander-bob",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "prisma": "^5.21.1",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.21.1",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.13",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2"
+  }
 }
